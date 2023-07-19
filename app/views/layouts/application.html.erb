@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <title>VanillaRails7</title>
+    <title>Target: Omnicalc 2</title>
     <meta name="viewport" content="width=device-width,initial-scale=1">
     <%= csrf_meta_tags %>
     <%= csp_meta_tag %>
@@ -11,6 +11,47 @@
   </head>
 
   <body>
+    <table style="width: 100%" border="1">
+      <tr>
+        <td>
+          <a href="/add">Add</a>
+        </td>
+
+        <td>
+          <a href="/subtract">Subtract</a>
+        </td>
+
+        <td>
+          <a href="/multiply">Multiply</a>
+        </td>
+
+        <td>
+          <a href="/divide">Divide</a>
+        </td>
+        <!--
+        <td>
+          <a href="/street_to_coords/new">
+            Street to Coordinates
+          </a>
+        </td>
+
+        <td>
+          <a href="/coords_to_weather/new">
+            Coordinates to Weather
+          </a>
+        </td>
+
+        <td>
+          <a href="/street_to_weather/new">
+            Street to Weather
+          </a>
+        </td>
+
+        <td>
+          <a href="/translate">Translate</a>
+        </td>-->
+      </tr>
+    </table>
     <%= yield %>
   </body>
 </html>
