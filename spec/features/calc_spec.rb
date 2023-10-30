@@ -474,7 +474,7 @@ describe "/subtract" do
     find("button", :text => /Subtract/i).click
 
     expect(page).to have_content(/41.5/),
-      "Expected results page of the form to display 42.5 when inputs are 69 and 27.5, but didn't."
+      "Expected results page of the form to display 41.5 when inputs are 69 and 27.5, but didn't."
   end
 end
 # end sub results
